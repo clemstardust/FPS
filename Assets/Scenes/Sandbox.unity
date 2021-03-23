@@ -1364,25 +1364,6 @@ ParticleSystem:
     type: 3}
   m_PrefabInstance: {fileID: 6941171573239342806}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1612549177 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2292672369677778367, guid: bec5e86d5edf31c4980ac68ae9c8030c,
-    type: 3}
-  m_PrefabInstance: {fileID: 2292672370854947242}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1612549178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1612549177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9ada486a0566f843b8de6bc7ec18de8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hitPoints: 100
 --- !u!1001 &1670150091
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1831,6 +1812,11 @@ PrefabInstance:
       propertyPath: flash
       value: 
       objectReference: {fileID: 1601730368}
+    - target: {fileID: 376058199, guid: 3335d5728e5fdc14ba85578d9c225097, type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 1766814854480755888, guid: 94d617c4815757d46b001563266c20d8,
+        type: 3}
     - target: {fileID: 4252442068465108708, guid: 3335d5728e5fdc14ba85578d9c225097,
         type: 3}
       propertyPath: m_IsActive
